@@ -10,7 +10,6 @@ let setErrors = function(err) {
 
 class ProductForm extends Component {
   constructor(props) {
-    console.log(props);
     super(props);
     this.state = {
       product: {
